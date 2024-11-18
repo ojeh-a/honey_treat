@@ -1,0 +1,12 @@
+body {
+    padding: 0;
+    background-color: aqua;
+    color: red;
+}
+.lists {
+    color: green;
+}
+.gcc {
+    font: 700;
+    color: brown;
+}
