@@ -1,0 +1,204 @@
+
+body {
+    /* display: block; */
+    margin: 5px;
+    color: rgb(156, 152, 143);
+    background-color: #dee2e6;
+    /* background-image: url(../kaizen.jpg); */
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.logo {
+    color: #e9ecef;
+    text-decoration: none;
+    text-shadow: #332929;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #343a40;
+    font-weight: bolder;
+}
+
+.logo-div {
+    padding: auto;
+    background-color: #212529;
+    border-radius: 5px;
+}
+.tm {
+    font-size: x-small;
+}
+.header-area {
+    display: flex;
+    background-color: #e9ecef;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 100px;
+    border-radius: 5px;
+}
+.navigation {
+    color: #212529;
+    background-color: #dee2e6;
+    text-align: center;
+    justify-content: right;
+    font-weight: bold;
+    font-size: large;
+
+}
+#resume {
+    border: 2px solid;
+    text-shadow: #dee2e6;
+    border-color: transparent;
+    background-color: #495057;
+    border-radius: 5px;
+    color: #adb5bd;
+}
+
+#menu {
+    width: 50px;
+    display: none;
+}
+
+.introduction {
+    padding-top: 20px;
+    background-color: #343a40;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    height: 75dvh;
+    /* animation-name: introduction; */
+    /* animation-duration: 10s; */
+
+    position: relative;
+
+    /* animation-timing-function: ease-out; */
+}
+
+.intro-text {
+    grid-column: 1/2;
+    text-align: center;
+    align-items: center;
+}
+.intro-image {
+    grid-column: 2/3;
+}
+
+#photo {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.skillset {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+body > div > nav a {
+    text-decoration: none;
+    text-transform:initial;
+    color: #5c4141;
+}
+
+
+
+#resume:hover {
+    color: darkolivegreen;
+    background-color: lightblue;
+    font-size: 200%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+
+
+
+div h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+div > ul {
+    list-style: disc;
+    color: black;
+    font-size: 24px;
+    line-height: 2;
+    opacity: 100%;
+}
+
+.footer {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* animation-name: introduction; */
+}
+
+/* @keyframes introduction {
+    0% { background-color: red; left: 0px; top: 0px;}
+    25% {background-color: orange; left: 200px; top: 0px;}
+    50% {background-color: pink; left: 200px; top: 200px;}
+    75% {background-color: lime; left: 0px; top 200px;}
+    100% { background-color: red; left: 0px; top: 0px;}
+
+    
+} */
+
+.intro-text {
+    animation-name: intro-text;
+    animation-duration: 10s;
+}
+#photo {
+    background-color: #6faf62;
+    display: flex;
+    animation-name: photo;
+    animation-duration: 5s;
+
+    position: relative;
+
+    animation-timing-function: ease-out;
+}
+
+/* 
+@keyframes photo {
+    0% { background-color: black; right: 0px; top: 0px;}
+    25% {background-color: orange; right: 200px; top: 0px;}
+    50% {background-color: pink; right: 200px; top: 200px;}
+    75% {background-color: lime; right: 0px; top: 200px;}
+    100% { background-color: r6faf62ed; right: 0px; top: 0px;}
+}
+
+@keyframes intro-text {
+    0% {background-color: #5c4141;}
+    50% {background-color: aqua;}
+    100% {background-color: blanchedalmond;}
+    } */
+
+/* @media screen and (max-width: 768px) { 
+    body {
+    display: block;
+
+}
+
+.navigation {
+    display: none;
+}
+
+#menu {
+    width: 50px;
+    display: inline;
+    color: azure;
+}
+} */
+
+.my-skills {
+    margin-right:  20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #343a40;
+}

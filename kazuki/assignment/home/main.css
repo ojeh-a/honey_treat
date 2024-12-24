@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 8px;
+    background-color: darkslategray;
+    color: wheat;
+}
+
+.header-area {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    height: 50;
+}
+nav {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.introduction {
+    background-color: black;
+    text-justify: auto;
+}
+
+#genie {
+    margin: 8px;
+}
+
+body > div > nav a {
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.box {
+    background-color: cyan;
+}
+
+.container {
+
+
+    background-color: darkcyan;
+    width: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    text-align: center;
+}

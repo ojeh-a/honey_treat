@@ -1,0 +1,99 @@
+/* body {
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+.logo {
+    width: 100px;
+}
+
+.slider {
+    background-image: url('../images/banner.jpg');
+    /* background-color: crimson; */
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+header > div > nav > ul > li > a {
+    text-decoration: none;
+    color: crimson;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header > div > nav > ul > li > a:hover {
+    color: purple;
+}
+
+header > div > nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+}
+
+.cta {
+    border: 2px solid crimson;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: crimson;
+    font-size: 24px;
+}
+
+.cta:hover {
+    border: none;
+    background-color: purple;
+    color: white;
+}
+
+.maggi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: crimson;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: purple;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.overview-img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.gridlock {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gta {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 5px;
+}

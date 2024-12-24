@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link id="theme" rel="stylesheet" href="assets/css/light.css">
+
+    <!-- font awesome  -->
+     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+
+    <!-- owl carousel here  -->
+     <link rel="stylesheet" href="assets/owl_carousel/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="assets/owl_carousel/assets/owl.theme.default.min.css">
+
+     <!-- animation -->
+      <link rel="stylesheet" href="assets/css/animate.min.css">
+
+
+    <script src="assets/javascript/main.js"></script>
+
+</head>
+<body>
+    <div class="header-area">
+        <div class="logo-div">
+            <a href="#" class="logo"><h1 class="animate__bounce">Genie<sup class="tm">TM</sup></sup></h1></a>
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Home</a> |
+            <a href="../about/about.html">about</a> |
+            <a href="../experience/experience.html">Experience</a> |
+            <a href="../contact_us/contact_us.html">Contact Us</a> |
+            <a href="../resume/resume.html" id="resume">Resume</a>
+            <a id="menu" href=""><i class="fa-solid fa-bars"></i></a>
+        </nav>
+        <span class="toggle navigation">
+            <a onclick="light()" id="sun"><i class="fa-regular fa-sun"></i></a>
+            <a onclick="dark()" id="moon"><i class="fa-regular fa-moon"></i></a>
+        </span>
+            
+    </div>
+
+
+    <div class="introduction">
+        <div class="intro-text">
+            <h1 class="animate__animated animate__bounce">Welcome!!</h1>
+            <div class="animate__animated animate__rubberBand">
+                <h4>Meet Ojeh...</h4>
+            <p>
+                Ojeh = (life) => `A Software Engineer, driven by Efficiency and simplicity....with a touch of Elegance`;
+            </p>
+            </div>
+        </div>
+
+        <div class="intro-image animate__animated animate__wobble">
+            <img id="photo" src="assets/images/minimalis.png" alt="image">
+        </div>
+        
+    </div>
+
+
+    <div class="my-skills">
+        <h2 class="skillset">skillsets</h2>
+        <ul>
+            <h4>Languages</h4>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React.js</li>
+            <h4>Frameworks</h4>
+            <li>Tailwind CSS</li>
+            <li>Bootsrap</li>
+            <li>Material UI</li>
+            <h4>Productivity Tools</h4>
+            <li>Slack</li>
+            <li>Jira</li>
+            <li>ClickUp</li>
+            <li>Microsoft Teams</li>
+            <h4>Hosting Platforms</h4>
+            <li>Vercel</li>
+            <li>Netlify</li>
+            <li>Heroku</li>
+            <h4>Version Control</h4>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>BitBucket</li>
+            <h4>Content Management Systems</h4>
+            <li>Contentful</li>
+            <li>DatoCMS</li>
+            <li>Strapi</li>
+            <li>Sanity</li>
+        </ul>
+    </div>
+
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Made by <a href="https://www.github.com/ojeh-a">Ojeh</a></p>
+        </div>
+        <div class="links">
+            <a href=""><i class="fa-regular fa-message"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+        <a href="#"><i class="fa-solid fa-jet-fighter-up"></i></a>
+        <script src="assets/javascript/jquery.min.js"></script>
+        <script src="assets/owl_carousel/owl.carousel.min.js"></script>
+
+        <!-- call owl carousel  -->
+         <script>
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel();
+            });
+         </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 100px;
+}
+
+
+header > div > nav > ul > li > a {
+    text-decoration: none;
+    color: crimson;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+header > div > nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+}
+
+.cta {
+    border: 2px solid crimson;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: 5px;
+    font-weight: 600;
+    color: crimson;
+
+}
+
+header > div > nav > ul > li > a:hover {
+    color: purple
+}
+
+.maggi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta:hover {
+    border: none;
+    background-color: purple;  
+}
+
+
+
+.title {
+    color: crimson;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: purple;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.parrot {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+.overview-img {
+    width: 100px;
+    max-width: 400px;
+}
