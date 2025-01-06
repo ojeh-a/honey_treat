@@ -1,6 +1,31 @@
 body {
     background-color: whitesmoke;
+    color: #212529;
 }
+
+.header-area {
+    /* background-color: #e9ecef; */
+    /* background-color: #212529; */
+}
+.logo {
+    color: black;
+}
+.logo-div {
+}
+
+.navigation {
+    color: black;
+}
+.introduction {
+        background-color: #ced4da;
+        /* color: black; */
+}
+
+.my-skills {
+    /* background-color: #adb5bd; */
+}
+
+.
 #sun {
     display: none;
     color: #212529;
@@ -19,3 +44,4 @@ body {
     font-weight: bold;
     font-size: large;
 }
+
